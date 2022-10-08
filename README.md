@@ -1,4 +1,4 @@
-### JOGO ALVO3
+### JOGO ALVO
 #### Acerte o centro do alvo.
 
 #### Abra o arquivo no seu navegador
