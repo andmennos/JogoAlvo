@@ -1,12 +1,9 @@
-### JOGO ALVO
-#### Acerte o centro do alvo.
+<div align="center">
+  <h1>JOGO ALVO</h1>
+  <p>Acerte o centro do alvo</p>
+  <p>Abra o arquivo no seu navegador</p>
+</div><br>
 
-#### Abra o arquivo no seu navegador
-
-<div style="display: inline_block"><br>
-  <img height="120" width="150" src="https://ik.imagekit.io/3mfjmziiqmi/alvo_UPMDzQ6PB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665198303640">
-</div><br><br>
-
-
-
-
+<div align="center"><br>
+  <a href="https://picasion.com/"><img src="https://i.picasion.com/pic92/5d10cd0765dc4530f639ff803f6fa60e.gif" width="300" height="198" border="0" alt="https://picasion.com/" /></a><br />
+</div>
