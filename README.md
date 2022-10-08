@@ -1,8 +1,12 @@
 ### JOGO ALVO3
 #### Acerte o centro do alvo.
+
+- Imagem
+
 <div style="display: inline_block"><br>
-  <img align="center" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-</div><br>
+  <img align="center" height="120" width="150" src="https://ik.imagekit.io/3mfjmziiqmi/alvo_UPMDzQ6PB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665198303640">
+</div><br><br>
 
 
-[Veja a apresentação do software](https://www.linkedin.com/posts/anderson-ferreira-5ab93865_programa-python3-python-activity-6839291695436181505-Ykab?utm_source=share&utm_medium=member_desktop)
+
+
