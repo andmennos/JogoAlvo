@@ -1,9 +1,6 @@
 <canvas width = "600" height = "400"></canvas>
-
 <meta charset = "UTF-8">
-
 <script>
-
 	var tela = document.querySelector("canvas");
 	var pincel = tela.getContext("2d");
 	var raio = 10
@@ -11,23 +8,17 @@
 	var yAlvo;
 
 	function desenhaCirculo(xAlvo, yAlvo, raio, cor){
-
 		pincel.fillStyle = cor;
 		pincel.beginPath();
 		pincel.arc(xAlvo, yAlvo, raio, 0, 2 * 3.14)
 		pincel.fill()
-
 	}
 
 	function limpaTela(){
-
 		pincel.clearRect(0, 0, 600, 400)
 	}
 
-
-
 	function desenhaAlvo(xAlvo, yAlvo){
-
 		xAlvo = sorteia(600);
 		yAlvo = sorteia(400);
 
@@ -38,17 +29,13 @@
 		desenhaCirculo(xAlvo, yAlvo, raio + 20, "red");
 		desenhaCirculo(xAlvo, yAlvo, raio + 10, "white");
 		desenhaCirculo(xAlvo, yAlvo, raio, "red");
-
 		}
 
 	function sorteia(maximo){
-
 		return Math.floor(Math.random() * maximo)
 	}
 
-
 	function acerto(evento){
-
 		var x = evento.pageX - tela.offsetLeft;
 		var y = evento.pageY - tela.offsetTop;
 
@@ -58,22 +45,11 @@
 			&& (x < xAlvo + raio) 
 			&& (y > yAlvo - raio) 
 			&& (y < yAlvo + raio)){
-
 			alert("VOCÊ ACERTOU, PARABÉNS!!");
-
 		}
-
 		console.log(x, y, xAlvo, yAlvo)
-	
 	}
 
-	
 	setInterval(desenhaAlvo, 3000)
-
 	tela.onclick = acerto;
-
-
-	
-
-
 </script>
